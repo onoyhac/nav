@@ -1,0 +1,49 @@
+body {
+  font: 1em sans-serif;
+  background-color: blanchedalmond;
+}
+h5 {
+  font-size: 80px;
+  margin: 50px;
+  text-align: center;
+  text-shadow: 1px 1px 2px white;
+}
+.countainer {
+  width: 120px;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  opacity: 100%;
+  border-radius: 7px;
+  box-shadow: 1 px 1px 1px;
+}
+.galeri li {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  border: 5px solid #666;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+}
+.galeri li img {
+  border-radius: 50%;
+}
+.galeri li span {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgba(200, 200, 200, 0.5);
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 120px;
+  color: #ffff;
+  text-shadow: 1px 1px 1px #6666;
+  font-size: 1.4em;
+}
+.clear {
+  clear: both;
+}
